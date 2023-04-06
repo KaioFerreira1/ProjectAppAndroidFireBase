@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormLogin">
+
+    <ImageView
+        android:id = "@+id/logo"
+        android:layout_width = "200dp"
+        android:layout_height = "170dp"
+        android:src = "@drawable/nexux_logo"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent" />
+
+    <View
+        android:id="@+id/circle_white"
+        style="@style/ContainerComponents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+        android:drawableRight="@drawable/ic_email"
+        android:hint="Email"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@id/circle_white"
+        app:layout_constraintEnd_toEndOf="@id/circle_white"
+        app:layout_constraintTop_toTopOf="@id/circle_white" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/Edit_Text"
+        android:drawableRight="@drawable/ic_senha"
+        android:hint="Senha"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@id/circle_white"
+        app:layout_constraintEnd_toEndOf="@id/circle_white"
+        app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/but_entrar"
+        style="@style/Button"
+        android:text="@string/entrar"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/circle_white"/>
+
+    <TextView
+        android:id="@+id/text_tela_cadastro"
+        style="@style/Text_view"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
