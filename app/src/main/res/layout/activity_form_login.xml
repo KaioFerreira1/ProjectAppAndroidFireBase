@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".FormLogin">
+    <Button
+        android:id="@+id/theme_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar tema" />
 
     <ImageView
         android:id = "@+id/logo"
@@ -44,7 +48,7 @@
     <EditText
         android:id="@+id/edit_senha"
         style="@style/Edit_Text"
-        android:drawableRight="@drawable/ic_senha"
+        android:drawableRight="@drawable/ic_senha_visible"
         android:hint="Senha"
         android:textColor="@android:color/black"
         android:textColorHint="@android:color/darker_gray"
@@ -67,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:visibility="invisible"
+        android:indeterminateTint="@color/white"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/circle_white"/>

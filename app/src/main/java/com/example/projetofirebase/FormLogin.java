@@ -19,6 +19,7 @@ public class FormLogin extends AppCompatActivity {
         setContentView(R.layout.activity_form_login);
         getSupportActionBar().hide();
 
+
         IniciarComponentes();
 
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {

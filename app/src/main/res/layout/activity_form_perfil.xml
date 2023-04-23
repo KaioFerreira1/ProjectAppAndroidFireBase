@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".FormPerfil">
+
+        <View
+            android:id="@+id/foto_perfil"
+            style="@style/Container_Foto_Perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imagem_icone"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_usuario"
+            app:layout_constraintBottom_toBottomOf="@id/foto_perfil"
+            app:layout_constraintEnd_toEndOf="@id/foto_perfil"
+            app:layout_constraintStart_toStartOf="@id/foto_perfil"
+            app:layout_constraintTop_toTopOf="@id/foto_perfil" />
+
+        <ImageView
+            android:id="@+id/icon_acc_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_usuario"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/foto_perfil"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_userlAC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kaio Ferreira de Souza"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="31dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintStart_toEndOf="@id/icon_acc_user"
+            app:layout_constraintTop_toBottomOf="@id/foto_perfil" />
+
+        <ImageView
+            android:id="@+id/icon_acc_email"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/icon_acc_user"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:id="@+id/text_email_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kaiof2902@gmail.com"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintStart_toEndOf="@id/icon_acc_email"
+            app:layout_constraintTop_toBottomOf="@id/text_userlAC" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:padding="17dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="35dp"
+            app:layout_constraintTop_toBottomOf="@id/text_email_user"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

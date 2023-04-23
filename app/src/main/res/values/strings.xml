@@ -3,4 +3,7 @@
     <string name="entrar">Entrar</string>
     <string name="text_cadastro">Clique aqui para cadastrar</string>
     <string name="text_tela_cadastro">Cadastre-se</string>
+    <string name="text_button_cadastrar">Cadastrar</string>
+    <string name="msg_preencha_todos_os_campos">Preencha todos os campos</string>
+    <string name="msg_cadastro_realizado_com_sucesso">Cadastro realizado com sucesso</string>
 </resources>

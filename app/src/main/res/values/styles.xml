@@ -55,11 +55,19 @@
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginTop">100dp</item>
     </style>
-    <style name = "ContainerComponents2">
+    <style name = "Container_Cadastro">
         <item name="android:background">@drawable/container_components</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">254dp</item>
         <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="Container_Foto_Perfil">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center</item>]
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/container_user</item>
     </style>
 
 </resources>

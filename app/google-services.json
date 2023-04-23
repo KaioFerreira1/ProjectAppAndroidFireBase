@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55478848283",
+    "project_id": "projeto-tela-de-login-6b953",
+    "storage_bucket": "projeto-tela-de-login-6b953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55478848283:android:312b7a1866d1cc2b9b21be",
+        "android_client_info": {
+          "package_name": "com.catolica.projetoLoginEcadastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55478848283-l95n6s3ducg4vnl60qt047hi3do2naej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDeKszCxUqqc_qMooS55GGuL-CNBXhJU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55478848283-l95n6s3ducg4vnl60qt047hi3do2naej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
