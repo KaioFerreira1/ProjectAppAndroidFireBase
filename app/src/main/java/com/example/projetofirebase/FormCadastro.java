@@ -62,7 +62,6 @@ public class FormCadastro extends AppCompatActivity {
             snackbar.setTextColor(Color.BLACK);
             snackbar.show();
             return;
-            //kaiof2902@gmail.com
         }
         // Verifica se a senha tem pelo menos 6 caracteres
         if (senha.length() < 6) {
