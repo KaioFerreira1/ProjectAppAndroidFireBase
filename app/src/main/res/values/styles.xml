@@ -69,5 +69,23 @@
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/container_user</item>
     </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:colorAccent">@color/accent_color</item>
+        <item name="android:nightMode">auto</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:colorPrimary">@color/primary_color_dark</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color_dark</item>
+        <item name="android:colorAccent">@color/accent_color_dark</item>
+        <item name="android:nightMode">auto</item>
+    </style>
+
 
 </resources>
