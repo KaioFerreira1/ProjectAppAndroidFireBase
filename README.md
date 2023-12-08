@@ -5,7 +5,7 @@
 
 ## Ferramentas
 [![](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)](https://developer.android.com/studio?hl=pt-br)
-[<img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-built_white.svg" width="100" height="100">](https://firebase.google.com/?hl=pt-br)
+[<img src="https://firebase.google.com/downloads/brand-guidelines/SVG/logo-logomark.svg" width="100" height="100">](https://firebase.google.com/?hl=pt-br)
 
 ## Instalação
 Para instalar o "ProjectAppAndroidFireBase", você precisará do Android Studio e de uma conta no Firebase. Clone o repositório para a sua máquina local e abra o projeto no Android Studio. Configure o Firebase de acordo com as instruções na documentação oficial do Firebase.
