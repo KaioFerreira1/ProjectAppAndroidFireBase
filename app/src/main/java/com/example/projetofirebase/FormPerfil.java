@@ -1,8 +1,10 @@
 package com.example.projetofirebase;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
 
 public class FormPerfil extends AppCompatActivity {
 
@@ -12,5 +14,4 @@ public class FormPerfil extends AppCompatActivity {
         setContentView(R.layout.activity_form_perfil);
         getSupportActionBar().hide();
     }
-
 }

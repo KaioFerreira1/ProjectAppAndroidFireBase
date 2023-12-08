@@ -11,11 +11,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".FormLogin">
-    <Button
-        android:id="@+id/theme_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alterar tema" />
+
+    <TextView
+        android:id="@+id/text_cadastro2"
+        style="@style/Text_Cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/logo" />
+
 
     <ImageView
         android:id = "@+id/logo"
@@ -82,7 +85,6 @@
         app:layout_constraintTop_toBottomOf="@+id/progress_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
