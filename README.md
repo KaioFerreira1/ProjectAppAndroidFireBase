@@ -4,7 +4,7 @@
 "ProjectAppAndroidFireBase" é um aplicativo Android que utiliza o Firebase para fornecer funcionalidades de autenticação e perfil de usuário. O aplicativo inclui telas de login, cadastro e perfil. Quando um usuário existente faz login, seu perfil é exibido. As ferramentas do Firebase utilizadas incluem Firestore Database e Authentication.
 
 ## Ferramentas
-[![Instagram](https://icons8.com/icon/04OFrkjznvcd/android-studio)](https://developer.android.com/studio?hl=pt-br)
+[![Android Studio](https://icons8.com/icon/04OFrkjznvcd/android-studio)](https://developer.android.com/studio?hl=pt-br)
 
 
 ## Instalação
