@@ -5,6 +5,7 @@
 
 ## Ferramentas
 [![](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)](https://developer.android.com/studio?hl=pt-br)
+[![](https://firebase.google.com/downloads/brand-guidelines/SVG/logo-built_white.svg)](https://firebase.google.com/?hl=pt-br)
 
 
 ## Instalação
