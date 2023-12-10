@@ -2,7 +2,6 @@ package com.example.projetofirebase;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -12,13 +11,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
 
 public class FormLogin extends AppCompatActivity {
     private TextView text_tela_de_cadastro;
@@ -40,6 +39,7 @@ public class FormLogin extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
         butlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,7 +107,7 @@ public class FormLogin extends AppCompatActivity {
     }
 
     private void iniciarComponentes() {
-        text_tela_de_cadastro = findViewById(R.id.text_tela_cadastro); // Verifique se o ID está correto (R.id.text_tela_cadastro)
+        text_tela_de_cadastro = findViewById(R.id.text_tela_cadastro);
         editemail = findViewById(R.id.edit_email);
         editsenha = findViewById(R.id.edit_senha);
         butlogin = findViewById(R.id.but_entrar);
@@ -124,3 +124,5 @@ public class FormLogin extends AppCompatActivity {
         }
     }
 }
+//Login de usuarios cadastrados implementado - CONCLUIDO
+//Só falta terminar os "gets" dos dados dos usuarios cadastrados para exibir na FormPerfil, após o login

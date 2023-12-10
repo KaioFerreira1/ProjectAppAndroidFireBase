@@ -42,7 +42,6 @@
             android:id="@+id/text_userlAC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kaio Ferreira de Souza"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -64,7 +63,6 @@
             android:id="@+id/text_email_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="kaiof2902@gmail.com"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -73,6 +71,7 @@
             app:layout_constraintStart_toEndOf="@id/icon_acc_email"
             app:layout_constraintTop_toBottomOf="@id/text_userlAC" />
         <Button
+            android:id="@+id/button_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
